@@ -1,0 +1,44 @@
+[
+  {
+    "train_id": "bacs",
+    "train_no": 12345,
+    "seats": [
+      [false,false,false,false,false,false],
+      [false,false,false,false,false,false],
+      [false,false,false,false,false,false],
+      [false,false,false,false,false,false]
+    ],
+    "station_times": {
+      "bangalore": "13:50:00",
+      "jaipur": "15:30:00",
+      "delhi": "18:00:00"
+    },
+    "stations": [
+      "bangalore",
+      "jaipur",
+      "delhi"
+    ]
+  },
+  {
+    "train_id": "dmch",
+    "train_no": 54321,
+    "seats": [
+      [false,false,false,false,false,false],
+      [false,false,false,false,false,false],
+      [false,false,false,false,false,false],
+      [false,false,false,false,false,false]
+    ],
+    "station_times": {
+      "delhi": "08:00:00",
+      "mumbai": "14:30:00",
+      "chennai": "22:00:00",
+      "hyderabad": "18:00:00"
+    },
+    "stations": [
+      "delhi",
+      "mumbai",
+      "hyderabad",
+      "chennai"
+    ]
+  }
+]
