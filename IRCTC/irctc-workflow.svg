@@ -1,0 +1,78 @@
+<svg width="1900" height="2300" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .box { 
+      stroke: #222; 
+      stroke-width: 2; 
+      rx: 10; 
+      ry: 10; 
+      font-family: Arial, sans-serif;
+      font-size: 22px;
+      text-anchor: middle;
+    }
+    .start { fill: #4CAF50; }
+    .menu { fill: #03A9F4; }
+    .signup { fill: #8E24AA; }
+    .login { fill: #3949AB; }
+    .view { fill: #6D4C41; }
+    .search { fill: #00897B; }
+    .book { fill: #F9A825; }
+    .cancel { fill: #D32F2F; }
+    .exit { fill: #616161; }
+    .process { fill: #81D4FA; }
+    .logic { fill: #B2FF59; }
+    .security { fill: #EF5350; }
+    .storage { fill: #FFCA28; }
+    .decision { fill: #CE93D8; }
+    .text { fill: black; }
+    line { stroke: black; stroke-width: 2; }
+  </style>
+
+  <!-- START -->
+  <rect class="box start" x="750" y="50" width="400" height="80"/>
+  <text x="950" y="100" class="text">Application Start</text>
+
+  <line x1="950" y1="130" x2="950" y2="180"/>
+
+  <!-- MENU -->
+  <rect class="box menu" x="650" y="180" width="600" height="120"/>
+  <text x="950" y="230" class="text">Display Menu (1–7)</text>
+  <text x="950" y="260" class="text">1.SignUp  2.Login  3.View  4.Search</text>
+  <text x="950" y="290" class="text">5.Book  6.Cancel  7.Exit</text>
+
+  <!-- SIGN UP -->
+  <line x1="650" y1="240" x2="250" y2="240"/>
+  <rect class="box signup" x="100" y="210" width="250" height="60"/>
+  <text x="225" y="250" class="text">1. Sign Up</text>
+
+  <!-- LOGIN -->
+  <line x1="650" y1="260" x2="250" y2="350"/>
+  <rect class="box login" x="100" y="320" width="250" height="60"/>
+  <text x="225" y="360" class="text">2. Login</text>
+
+  <!-- VIEW BOOKINGS -->
+  <line x1="650" y1="290" x2="250" y2="470"/>
+  <rect class="box view" x="100" y="440" width="250" height="60"/>
+  <text x="225" y="480" class="text">3. View Bookings</text>
+
+  <!-- SEARCH TRAINS -->
+  <line x1="1250" y1="230" x2="1650" y2="230"/>
+  <rect class="box search" x="1650" y="200" width="250" height="60"/>
+  <text x="1775" y="240" class="text">4. Search Trains</text>
+
+  <!-- BOOK SEAT -->
+  <line x1="1250" y1="260" x2="1650" y2="360"/>
+  <rect class="box book" x="1650" y="330" width="250" height="60"/>
+  <text x="1775" y="370" class="text">5. Book Seat</text>
+
+  <!-- CANCEL TICKET -->
+  <line x1="1250" y1="290" x2="1650" y2="490"/>
+  <rect class="box cancel" x="1650" y="460" width="250" height="60"/>
+  <text x="1775" y="500" class="text">6. Cancel Ticket</text>
+
+  <!-- EXIT -->
+  <line x1="950" y1="300" x2="950" y2="380"/>
+  <rect class="box exit" x="750" y="380" width="400" height="60"/>
+  <text x="950" y="420" class="text">7. Exit Application</text>
+
+</svg>
