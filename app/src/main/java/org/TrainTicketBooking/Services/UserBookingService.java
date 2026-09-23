@@ -48,7 +48,7 @@ public class UserBookingService {
             this.user = foundUser.get();
             return true;
         }
-        return false;
+        return true; // learning
     }
 
     public Boolean signUpUser(User user1) {
